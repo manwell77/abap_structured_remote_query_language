@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSRQL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>invalid rfc destination specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>cannot query field &amp;1: length more than 512 characters or doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>field &amp;1 doesn&apos;t exist on table &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>invalid logical conjunction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>invalid table specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>query on table &amp;1 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>invalid structure specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>structure &amp;1 without key fields of table &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>result preparation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>invalid type kind</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>invalid type name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>failed to get components of structure/table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>failed to build descriptor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>failed to create data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>elements don&apos;t have offset, nor fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>structure dnamically built as structure &amp;1 on destination &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>field &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>failed to move value from field &amp;1 in field &amp;2</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
