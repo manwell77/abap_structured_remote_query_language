@@ -17,8 +17,18 @@
      <DESCRIPT>Logical Conjunction</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>AND</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Logical Conjunction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>OR</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Logical Conjunction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OR</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Logical Conjunction</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>

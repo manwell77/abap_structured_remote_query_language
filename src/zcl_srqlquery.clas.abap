@@ -25,7 +25,7 @@ public section.
       value(RESULT) type STRING .
   methods PREPARE_RESULT
     importing
-      value(FIELDS) type FIELDNAME_TAB optional
+      value(FIELDS) type ZSRQLFIELDNAME_TT optional
       value(DDIC_STRUCTURE) type STRUKNAME optional
     raising
       ZCX_SRQLQUERY .
@@ -49,14 +49,14 @@ private section.
 
   data DESTINATION type RFCDEST .
   data TABLE type TABNAME .
-  data TABLE_FIELDS type DFIES_TAB .
+  data TABLE_FIELDS type ZSRQLDFIES_TT .
   data WHERE type ZSRQLRFCDBOPT_TT .
-  data RESULT_FIELDS type FIELDNAME_TAB .
+  data RESULT_FIELDS type ZSRQLFIELDNAME_TT .
   data RESULT type ref to DATA .
   data RESULT_DATE type SYDATUM .
   data RESULT_TIME type SYUZEIT .
-  constants C_QUERYABLE_FIELD_MAX_LENGTH type I value 512. "#EC NOTEXT
-  constants C_QUERY_LINE_RFC_LIMIT type I value 72. "#EC NOTEXT
+  constants C_QUERYABLE_FIELD_MAX_LENGTH type I value 512 ##NO_TEXT.
+  constants C_QUERY_LINE_RFC_LIMIT type I value 72 ##NO_TEXT.
 
   methods BUILD_WHERE
     importing

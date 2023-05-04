@@ -27,7 +27,7 @@ public section.
       value(DESTINATION) type RFCDEST optional
       value(TYPENAME) type TYPENAME
       value(TYPEKIND) type ZSRQLTYPEKIND
-      value(TYPEFIELDS) type FIELDNAME_TAB optional
+      value(TYPEFIELDS) type ZSRQLFIELDNAME_TT optional
       value(OFFSET_FIELDS) type XFELD default SPACE
     returning
       value(RESULT) type ref to ZCL_SRQLTYPE
@@ -39,19 +39,19 @@ private section.
   data DESTINATION type RFCDEST .
   data TYPENAME type TYPENAME .
   data TYPEKIND type ZSRQLTYPEKIND .
-  data TYPEFIELDS type FIELDNAME_TAB .
+  data TYPEFIELDS type ZSRQLFIELDNAME_TT .
   data OFFSET_FIELDS type XFELD .
   data DESCRIPTOR type ref to CL_ABAP_DATADESCR .
   data BUILD_DATE type SYDATUM .
   data BUILD_TIME type SYUZEIT .
-  constants OFFSET_FNAME_PREFIX type STRING value 'ZZOFFSET_'. "#EC NOTEXT
+  constants OFFSET_FNAME_PREFIX type STRING value 'ZZOFFSET_' ##NO_TEXT.
 
   methods CONSTRUCTOR
     importing
       value(DESTINATION) type RFCDEST optional
       value(TYPENAME) type TYPENAME
       value(TYPEKIND) type ZSRQLTYPEKIND
-      value(TYPEFIELDS) type FIELDNAME_TAB optional
+      value(TYPEFIELDS) type ZSRQLFIELDNAME_TT optional
       value(OFFSET_FIELDS) type XFELD default SPACE
     raising
       ZCX_SRQLTYPE .
@@ -68,7 +68,7 @@ private section.
   methods BUILD_STR_DESCRIPTOR
     importing
       value(STRUCTURE) type TYPENAME
-      value(FIELDS) type FIELDNAME_TAB optional
+      value(FIELDS) type ZSRQLFIELDNAME_TT optional
     returning
       value(RESULT) type ref to CL_ABAP_STRUCTDESCR
     raising
@@ -76,16 +76,15 @@ private section.
   methods BUILD_TTY_DESCRIPTOR
     importing
       value(LINE) type TYPENAME
-      value(FIELDS) type FIELDNAME_TAB optional
+      value(FIELDS) type ZSRQLFIELDNAME_TT optional
     returning
       value(RESULT) type ref to CL_ABAP_TABLEDESCR
     raising
       ZCX_SRQLTYPE .
-  type-pools ABAP .
   methods GET_TYPE_COMPONENTS
     importing
       value(STRUCTURE) type TYPENAME
-      value(FIELDS) type FIELDNAME_TAB optional
+      value(FIELDS) type ZSRQLFIELDNAME_TT optional
     returning
       value(RESULT) type ABAP_COMPONENT_TAB
     raising

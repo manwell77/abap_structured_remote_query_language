@@ -116,6 +116,107 @@
      <TEXT>failed to move value from field &amp;1 in field &amp;2</TEXT>
     </T100>
    </T100>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>I</SPRSL>
+     <ARBGB>ZSRQL</ARBGB>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>destinazione rfc specificata non valida</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>no query su campo &amp;1: superiore a 512 caratteri oppure inesistente</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>campo &amp;1 inesistente nella tabella &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>congiunzione logica specificata non valida</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>tabella specificata non valida</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>query fallita su tabella &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>struttura specificata non valida</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>struttura &amp;1 priva dei campi chiave della tabella &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>preparazione risultato fallita</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>genere di tipo non valido</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>nome tipo non valido</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>fallita lettura campi struttura/tabella &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>fallita generazione descrittore</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>fallita creazione tipo dato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>elementi privi di offset e campi</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>struttura generata dinamicamente come &amp;1 deifinita su destinazione &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>campo &amp;1 inesistente</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>fallita copia valore da campo &amp;1 a campo &amp;2</TEXT>
+    </item>
+   </T100_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

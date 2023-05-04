@@ -52,7 +52,7 @@ report zsrqldemo.
             lo_scut type ref to data,
             lo_itab type ref to data,
             lo_icut type ref to data,
-            lt_flds type fieldname_tab,
+            lt_flds type zsrqlfieldname_tt,
             lv_par  type symsgv.
 
 *     symbols definition
@@ -132,7 +132,7 @@ report zsrqldemo.
             lo_t006t_data type ref to data,
             lo_dims_data  type ref to data,
             lo_dimt_data  type ref to data,
-            lt_fld        type fieldname_tab,
+            lt_fld        type zsrqlfieldname_tt,
             lt_query      type standard table of zsrqlsoquery_s,
             ##NEEDED
             lt_data1      type standard table of zsrqlt000demo_s,
